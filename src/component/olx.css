@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* @font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Black.ttf);
+} */
+
+.header {
+    width: 300px;
+    background-color: #f7f8f8;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.upper {
+    background-color: #f7f8f8;
+    height: 150px;
+}
+
+.first_line {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.logo>img {
+    width: 30px;
+    margin-left: 20px;
+}
+
+.motors>a {
+    padding-left: 30px;
+    font-family: roboto;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.car {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.second_line {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.location {
+    padding: 20px;
+    height: 300px;
+}
+
+select {
+    height: 50px;
+}
+
+/* .locaton>select {
+    height: 50px;
+    border-radius: 5px;
+    align-self: center;
+    padding: 20px;
+} */
+
+.locaton>select:focus {
+    border: none;
+    outline: none;
+    outline: 2px solid rgb(44, 160, 168);
+}
+
+.srch {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.black_img {
+    margin-top: 1px;
+    width: 100px;
+    height: 100px;
+}
+
+.input_box {
+    border: 1px solid rgba(17, 17, 17, 0.733);
+    height: 43px;
+    border-radius: 5px;
+    align-self: center;
+    width: 710px;
+    margin-left: 30px;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.input_box:focus {
+    outline: none;
+    outline: 2px solid rgb(44, 160, 168);
+    border: none;
+}
+
+.search_icon {
+    font-size: 19px;
+    background-color: #002f34;
+    color: white;
+    width: 20px;
+    padding: 10px;
+    height: 70px;
+    align-self: flex-end;
+    border-radius: 0px;
+    position: relative;
+    left: 742px;
+}
+
+::placeholder {
+    font-size: larger;
+    padding: 10px;
+}
+
+.second_line>img {
+    background-color: black;
+    padding: 10px;
+    width: 30px;
+    height: 28px;
+    align-self: flex-end;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.sell {
+    margin-top: -40px;
+    margin-left: 1000px;
+    text-transform: capitalize;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sell:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.dropdown {
+
+    /* background-color: blue; */
+    margin: 20px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.links {
+    padding: 10px;
+    color: black;
+}
+
+/* .fresh{
+    background-color: aqua;
+    padding: 20px;
+    margin-left: 30px;
+} */
+
+/* cards */
+
+.cards {
+    margin-left: 15px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.black_part {
+    background-color: #222;
+    height: 150px;
+    padding-left: 30px;
+}
+
+.card_img {
+    padding-left: 30px;
+    width: 200px;
+    height: 100px;
+}
+
+.black_part h1 {
+    color: #fff;
+}
+
+.cards_box {
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    color: #fff;
+
+}
+.heart{
+    font-size: 20px;
+}
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
+.box_text {
+    border-top: 1px solid bl;
+    color: black;
+    padding: 10px;
+    border-left: 5px solid #ffce32;
+    height: 147px;
+}
+.paragraph{
+    font-family: sans-serif;
+}
+.price{
+    font-size: 20px;
+}
